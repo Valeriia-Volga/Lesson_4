@@ -1,0 +1,182 @@
+/* для кирилицы &display=swap&subset=cyrillic-ext */
+@import url("https://fonts.googleapis.com/css?family=Qahiri:regular&display=swap&subset=cyrillic-ext");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300italic&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Pacifico:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Rampart+One:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Space+Mono:700italic&display=swap&subset=cyrillic-ext");
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body {
+	font-family: "Pacifico", cursive;
+	line-height: 1;
+}
+/* плавный переход */
+html {
+	scroll-behavior: smooth;
+}
+
+h1 {
+	/* стиль */
+	font-family: "Comfortaa", cursive;
+
+	/* размер */
+	font-size: 50px;
+
+	/* насыщенность */
+	font-weight: 700;
+
+	color: burlywood;
+
+	/* отступ слева */
+	margin-left: 50px;
+
+	/* отступ сверху */
+	margin-top: 30px;
+
+	/* отступ снизу */
+	margin-bottom: 50px;
+
+	/* межстрочный интервал */
+	line-height: 100%;
+
+	/* расстояние между букв */
+	letter-spacing: 15px;
+
+	/* расстояние между слов */
+	word-spacing: 10px;
+
+	/* пробелы */
+	white-space: nowrap;
+
+	/* все буквы заглавные */
+	text-transform: uppercase;
+
+	/* тень */
+	text-shadow: 10px 1px 10px rgb(102, 5, 5);
+}
+
+.date {
+	margin-left: 35px;
+	font-size: 17px;
+	color: rgb(22, 155, 22);
+	white-space: nowrap;
+}
+
+.menu__list {
+	font-size: 25px;
+	margin-bottom: 40px;
+	margin-left: 35px;
+	margin-top: 7px;
+	white-space: nowrap;
+	letter-spacing: 5px;
+	word-spacing: 10px;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.menu__link {
+	color: coral;
+}
+
+h2 {
+	font-family: "Open Sans Condensed";
+	font-style: italic;
+	font-size: 40px;
+	color: cadetblue;
+	margin-left: 30px;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	letter-spacing: 5px;
+	text-shadow: 10px 1px 10px rgb(44, 102, 209);
+}
+
+.block {
+	font-family: "Pacifico", cursive;
+	color: crimson;
+	text-indent: 30px;
+}
+
+.block-2 {
+	font-family: "Space Mono", monospace;
+	color: crimson;
+	text-indent: 30px;
+}
+
+.text {
+	font-family: "Cormorant Garamond", serif;
+	color: darkblue;
+	text-indent: 30px;
+}
+
+.text-2 {
+	font-family: "Qahiri";
+	color: rgb(199, 23, 76);
+	text-indent: 30px;
+	font-weight: 1000;
+}
+
+.block,
+.block-2 .text,
+.text-2 {
+	font-size: 22px;
+	margin-left: 25px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	text-align: justify;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+img {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.footer {
+	font-size: 20px;
+	font-weight: 500;
+	color: rgb(49, 7, 97);
+}
+
+div.wrapper span.text {
+	text-decoration: overline;
+}
+
+span.text a {
+	text-decoration: underline;
+}
+span.text {
+	font-family: "Rampart One", cursive;
+}
